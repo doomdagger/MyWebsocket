@@ -73,7 +73,7 @@ sock.set("max reconnection attempts", 6);
 
 MyWebsocket exponses some events on a system level. You can listen on these events and make some reaction.
 
-- `socket.on('connect', function () {})` - "connect" is emitted when the socket connected successfully 
+ - `socket.on('connect', function () {})` - "connect" is emitted when the socket connected successfully 
  - `socket.on('connecting', function () {})` - "connecting" is emitted when the socket is attempting to connect with the server. 
  - `socket.on('disconnect', function () {})` - "disconnect" is emitted when the socket disconnected
  - `socket.on('error', function (message) {})` - "error" is emitted when an error occurs and it cannot be handled by the other event types.
